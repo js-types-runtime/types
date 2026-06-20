@@ -1,0 +1,39 @@
+{
+  "name": "@js-types-runtime/number",
+  "version": "1.0.0",
+  "description": "Lightweight finite number type checker. Zero dependencies.",
+  "type": "module",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./lib/index.js",
+      "types": "./lib/index.d.ts"
+    }
+  },
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "type",
+    "number",
+    "checker",
+    "validator",
+    "js-types-runtime"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/js-types-runtime/types.git",
+    "directory": "packages/number"
+  },
+  "bugs": {
+    "url": "https://github.com/js-types-runtime/types/issues"
+  },
+  "homepage": "https://github.com/js-types-runtime/types/tree/main/packages/number#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}
